@@ -176,7 +176,7 @@ export default function PiggyBankAnimated() {
 
   return (
     <div style={{ maxWidth: 700, margin: "24px auto", padding: 16 }}>
-      <h2 style={{ marginTop: 0 }}>🐷 Tirelire animée — stable & pause/reset fiables</h2>
+      <h2 style={{ marginTop: 0 }}>Tirelire Cochon </h2>
 
       <div style={{ display: "flex", gap: 12, flexWrap: "wrap", alignItems: "center" }}>
         <div>Solde : <strong>{balance.toFixed(2)} €</strong></div>
@@ -281,9 +281,11 @@ export default function PiggyBankAnimated() {
 
       <audio id="coin-audio" src="/coin.mp3" preload="auto" />
       <p style={{ fontSize: 12, color: "#667085", marginTop: 8 }}>
-        Pause fige le temps (aucun backlog). Reset coupe tout et relance propre.  
-        Le rattrapage crédite ce qui a été manqué sans double-compte, puis n’anime qu’une pièce.
-      </p>
+        Pause fige le temps. Reset coupe tout et relance propre.</p>
+        <hr/>
+        <p style={{ fontSize: 12, color: "#667085", marginTop: 8 }}>Rattraper permet de vérifier la présence de pièce accumuler mais non comptée</p>
+        <hr/>
+        <p style={{ fontSize: 12, color: "#667085", marginTop: 8 }}>Créé par Saucichef.</p>
     </div>
   );
 }
